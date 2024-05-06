@@ -7,9 +7,9 @@
 
 
 var guest_List = ["Hamza", "Hunain", "Hamid", "Haider"];
-let new_member  = guest_List[0];
-console.log(`${new_member} nhi a paye ga`);
+let newmember  = guest_List[0];
+console.log(`${newmember} nhi a paye ga`);
 guest_List.splice(0,1,"Hammad");
 console.log(guest_List);
-guest_List.forEach(newguest_List => console.log(newguest_List)
+guest_List.forEach(newguest_List => console.log(`${newguest_List} would you like to dinner with me?`)
 );

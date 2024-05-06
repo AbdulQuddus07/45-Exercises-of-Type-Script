@@ -4,8 +4,8 @@
 // Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
 // Print a second set of invitation messages, one for each person who is still in your list.
 var guest_List = ["Hamza", "Hunain", "Hamid", "Haider"];
-var newmember = guest_List[0];
-console.log("".concat(newmember, " nhi a paye ga"));
+var neww_member = guest_List[0];
+console.log("".concat(neww_member, " nhi a paye ga"));
 guest_List.splice(0, 1, "Hammad");
 console.log(guest_List);
-guest_List.forEach(function (newguest_List) { return console.log(newguest_List); });
+guest_List.forEach(function (newguest_List) { return console.log("".concat(newguest_List, " would you like to dinner with me?")); });

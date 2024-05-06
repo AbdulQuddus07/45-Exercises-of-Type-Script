@@ -5,12 +5,16 @@
 // Use append() to add one new guest to the end of your list. • Print a new set of invitation messages,
 // one for each person in your list.
 var guest_List = ["Hamza", "Hunain", "Hamid", "Haider"];
+var new_member = guest_List[0];
+console.log("".concat(new_member, " nhi a paye ga"));
 // adding new member in last index 
 guest_List.push("Abdul Quddus");
 console.log(guest_List);
 // adding new member in first index 
-guest_List.unshift("Abdul Quddus");
+guest_List.unshift("Abdul Quddus :-added in first index");
 console.log(guest_List);
 // adding new member in middle index
 guest_List.splice(3, 0, "Abdul Quddus");
 console.log(guest_List);
+console.log("message of our updated list");
+guest_List.forEach(function (newguest_List) { return console.log("".concat(newguest_List, " would you like to dinner with me?")); });
